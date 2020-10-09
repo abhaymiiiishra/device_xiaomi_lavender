@@ -241,3 +241,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Privapp-permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.control_privapp_permissions=log
+
+# Configure dex2oat
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-threads=8
