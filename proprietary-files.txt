@@ -1788,7 +1788,6 @@ vendor/lib64/lib-imsdpl.so|bc0440a4e4ee7a6a6cf3aa764c3a31cf89e20c33
 vendor/lib64/lib-imsqimf.so|b977b4a774eaa5ee737bd3fb13dc5a891d3af1ba
 vendor/lib64/lib-imsrcs-v2.so|70565a7cdbbf932287644ee269c642a2df0e2747
 vendor/lib64/lib-imsrcsbaseimpl.so|ab1a278f0a2c63b082775468810a0b2903304078
-vendor/lib64/lib-imsvtcore.so|c8f1c6dd2bc105ad754d136cd6051bd094945fcb
 vendor/lib64/lib-imsxml.so|f12125619011f2ae4819f9c7f674c8897c5b5263
 vendor/lib64/lib-rtpcommon.so|62cc18ea802b8555a9d05fa1fbd844316e1b0e03
 vendor/lib64/lib-rtpcore.so|2c12b5c75e8a1c308740df0e10553fa753905e28
@@ -1809,6 +1808,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|3f72f3b305fdf562bcc1538cfad68c840f7
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so|45fd8c212f51977663082b496755911c98658c49
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c82c2773d5bbb0302df
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
+
+# Radio - IMS - from mojito
+vendor/lib64/lib-imsvtcore.so|47d945bf976134fdb57b4f44dd73a1347f2bf421
 
 # Sensor-configs - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
 vendor/etc/sensors/elliptic.conf|fd6193dd8ec39f85948151a83a14690c228121b9
