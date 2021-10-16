@@ -16,6 +16,8 @@ $(call inherit-product, vendor/weeb/build/product/weeb_product.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
+WITH_GMS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := weeb_lavender
 PRODUCT_DEVICE := lavender
