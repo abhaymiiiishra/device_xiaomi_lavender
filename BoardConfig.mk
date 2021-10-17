@@ -158,7 +158,6 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/configs/seccomp
 
 # SELinux
-SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
