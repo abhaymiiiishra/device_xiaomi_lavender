@@ -4,6 +4,9 @@ ro.vendor.qti.va_aosp.support=1
 # CNE
 persist.vendor.cne.feature=1
 
+# Graphics
+debug.sf.enable_hwc_vds=0
+
 # Radio
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
