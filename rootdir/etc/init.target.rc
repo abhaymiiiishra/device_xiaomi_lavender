@@ -59,14 +59,10 @@ on fs
     mount_all /vendor/etc/fstab.qcom
     chown root system /mnt/vendor/persist
     chmod 0771 /mnt/vendor/persist
-    chmod 0771 /mnt/vendor/persist/spkr_calib_l.bin
     mkdir /mnt/vendor/persist/data 0700 system system
-    mkdir /mnt/vendor/persist/stability 0755 system system
     mkdir /mnt/vendor/persist/bms 0700 root system
     restorecon_recursive /mnt/vendor/persist
     write /sys/kernel/boot_adsp/boot 1
-    chown system system /dev/goodix_fp
-    #chmod 0644 /dev/goodix_fp
 
     mkdir /mnt/vendor/dsp 0770 root root
     copy /vendor/dsp/cdsp/fastrpc_shell_3 /mnt/vendor/dsp/fastrpc_shell_3
@@ -212,8 +208,6 @@ on property:init.svc.zygote=restarting
 
 on charger
     start qcom-post-boot
-    chown system system /sys/class/leds/red/brightness
-    chmod 0666 /sys/class/leds/red/brightness
     start vendor.hvdcp_opti
     setprop sys.usb.configfs 1
     start power_off_alarm

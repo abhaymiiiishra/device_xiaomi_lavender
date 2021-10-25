@@ -164,22 +164,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/mhi_qdss             0660   system    oem_2902
 /sys/class/qdss_bridge/mhi_qdss  mode      0660     system   oem_2902
 
-# fpc fingerprint
-/sys/devices/soc/soc:fpc1020*   hw_reset 0660 system system
-/sys/devices/soc/soc:fpc1020*   irq 0660 system system
-/sys/devices/soc/soc:fpc1020*   wakeup_enable 0660 system system
-/sys/devices/soc/soc:fpc1020*    fingerdown_wait 0220 system system
-
-/sys/class/leds/red      delay_on     0640    system    system
-/sys/class/leds/red      delay_off    0640    system    system
-/sys/class/leds/red      breath       0640    system    system
-/sys/class/leds/green    delay_on     0640    system    system
-/sys/class/leds/green    delay_off    0640    system    system
-/sys/class/leds/green    breath       0640    system    system
-/sys/class/leds/blue     delay_on     0640    system    system
-/sys/class/leds/blue     delay_off    0640    system    system
-/sys/class/leds/blue     breath       0640    system    system
-
 #qg
 /dev/qg                   0660  system     system
 /dev/qg_battery           0660  system     system
@@ -407,9 +391,3 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/graphics/fb0     modes                    0664    system  graphics
 /sys/class/graphics/fb0     mode                     0664    system  graphics
 /sys/class/graphics/fb0     msm_cmd_autorefresh_en   0664    system  graphics
-/sys/class/kgsl/kgsl-3d0    pwrscale                 0664    root  system
-/sys/class/kgsl/kgsl-3d0    devfreq/governor         0664    root  system
-/sys/class/kgsl/kgsl-3d0    force_rail_on            0664    root  system
-/sys/class/kgsl/kgsl-3d0    force_bus_on             0664    root  system
-/sys/class/kgsl/kgsl-3d0    force_clk_on             0664    root  system
-/sys/class/kgsl/kgsl-3d0    bus_split                0664    root  system
