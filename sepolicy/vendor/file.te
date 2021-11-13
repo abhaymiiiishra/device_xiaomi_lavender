@@ -12,3 +12,5 @@ type sysfs_micgain, sysfs_type, fs_type;
 type sysfs_earpiecegain, sysfs_type, fs_type;
 # Kcal
 type kcal_dev, sysfs_type, fs_type;
+#DT2W
+type sysfs_touchpanel, sysfs_type, fs_type;
