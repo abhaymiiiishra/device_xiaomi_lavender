@@ -451,7 +451,7 @@
     <integer name="config_wakeUpDelayDoze">32</integer>
 
     <!-- The max scale for the wallpaper when it's zoomed in -->
-    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1.10</item>
 
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
