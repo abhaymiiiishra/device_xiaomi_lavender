@@ -228,6 +228,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.dual.isp.sync=0
 
+#Enable Pre-Rendering
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.vendor.perf.scroll_opt=true
+
 # Privapp-permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.control_privapp_permissions=log
