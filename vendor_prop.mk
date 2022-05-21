@@ -216,6 +216,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=QTI \
     ro.soc.model=SDM660
 
+# System 
+PRODUCT_PROPERTY-OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
