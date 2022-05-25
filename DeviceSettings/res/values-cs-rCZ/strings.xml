@@ -80,19 +80,6 @@
     <string name="vibration_title">Zpětná hmatová odezva</string>
     <string name="vibration_strength_title">Síla</string>
 
-    <!-- Thermal Profiles -->
-    <string name="thermal_profile_title">Výkon</string>
-    <string name="thermal_title">Nastavení Výkonu</string>
-    <string name="thermal_summary">Režim výkonu</string>
-    <string name="thermal_dialogTitle">Režim výkonu</string>
-
-    <!-- Values for Thermal Presets -->
-    <string name="thermal_performance">Výkon</string>
-    <string name="thermal_battery">Šetřič batérie</string>
-    <string name="thermal_gaming">Herní</string>
-    <string name="thermal_balance">Vyvážený</string>
-    <string name="thermal_extreme_battery">Extrémní šetrič baterie</string>
-
     <!-- kcal -->
     <string name="advanced_settings_kcal">Kalibrace barev</string>
     <string name="cat_colormanagement">Nastavení barev</string>
