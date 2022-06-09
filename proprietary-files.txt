@@ -1729,8 +1729,8 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd71
 vendor/lib/librmnetctl.so|6afdf3ac7bfeb49e0632c819b49ec2720eab863b
 vendor/lib64/librmnetctl.so|857d628c1b9cb4a81de662548efec35b88019b81
 
-# Radio - from LA.UM.9.6.2.r1-04100-89xx.0
-system_ext/framework/qti-telephony-common.jar|8c99640be5b9b9ee886bfc450b6923a33eb2fd8b
+# Radio - from LA.QSSI.12.0.r1-05100-qssi.0
+system_ext/framework/qti-telephony-common.jar|2ba72ac401a98fe15d23d58867757a2033d51f67
 
 # Radio (IMS) - from LA.UM.8.2.r1-06700-sdm660.0
 -product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk|5e24e30b6fb5906e13fd8db1f57e30b8b59028ff
