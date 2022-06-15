@@ -138,7 +138,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=0 \
     ro.vendor.display.cabl=0 \
     debug.sdm.support_writeback=0 \
-    vendor.display.idle_time=32767
+    vendor.display.idle_time=32767 \
+    renderthread.skia.reduceopstasksplitting=true
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
