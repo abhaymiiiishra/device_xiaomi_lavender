@@ -11,3 +11,6 @@ telephony.lteOnCdmaDevice=1
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# Watchdog
+ro.hw_timeout_multiplier=3
