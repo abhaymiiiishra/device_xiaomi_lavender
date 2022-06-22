@@ -29,7 +29,7 @@
 /sys/touchpanel/double_tap                      u:object_r:sysfs_touchpanel:s0
 
 # Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.lavender                     u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.lights-service\.lavender                     u:object_r:hal_light_default_exec:s0
 
 # Power
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.lavender-libperfmgr               u:object_r:hal_power_default_exec:s0
