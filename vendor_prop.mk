@@ -121,14 +121,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
 
-# Dirac
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.audio.soundfx.dirac=true \
-    persist.audio.dirac.speaker=true \
-    persist.dirac.acs.controller=qem \
-    persist.dirac.acs.ignore_error=1 \
-    persist.dirac.acs.storeSettings=1
-
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=0 \
@@ -140,7 +132,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=0 \
     debug.sdm.support_writeback=0 \
     vendor.display.idle_time=32767 \
-    renderthread.skia.reduceopstasksplitting=true
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
