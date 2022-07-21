@@ -30,3 +30,4 @@ persist.dirac.acs.storeSettings=1
 
 #Display 
 renderthread.skia.reduceopstasksplitting=true
+debug.renderengine.backend=skiaglthreaded
