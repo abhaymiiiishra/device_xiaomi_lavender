@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/weeb_lavender.mk
+    $(LOCAL_DIR)/evolution_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    weeb_lavender-user \
-    weeb_lavender-userdebug \
-    weeb_lavender-eng
+    evolution_lavender-user \
+    evolution_lavender-userdebug \
+    evolution_lavender-eng
