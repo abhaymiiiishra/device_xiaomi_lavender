@@ -104,7 +104,4 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
     property_override("ro.treble.enabled", "");
-
-    // Misc
-    property_override("ro.apex.updatable", "false");
 }
