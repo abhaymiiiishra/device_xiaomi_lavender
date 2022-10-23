@@ -51,6 +51,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := proton
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
